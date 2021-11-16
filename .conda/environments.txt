@@ -1,0 +1,2 @@
+C:\Users\Diego\AppData\Local\R-MINI~1
+C:\Users\Diego\AppData\Local\R-MINI~1\envs\r-reticulate
