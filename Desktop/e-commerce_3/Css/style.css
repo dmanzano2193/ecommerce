@@ -1,0 +1,125 @@
+/* Código para estandarizar */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1REM = 10px */
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+}
+
+/* Globales */
+
+h1, h2, h3{
+  font-family: 'Playfair Display', serif;
+}
+
+h3{
+font-size: 1.875rem;
+
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+/* Header y navegación */
+.nombre-sitio{
+ margin-top: 5rem;
+ margin-bottom: 5rem;
+ text-align: center;
+ font-size: 4rem;
+}
+
+
+
+.contenedor-navegacion{
+  border-top: 0.1rem solid #e1e1e1;
+  margin: 0 auto;
+}
+
+
+.nav-principal{
+  /* border-color: #e1e1e1;
+  border-top-style: solid;
+  border-width: 1px; */
+  padding: 1.5rem ;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+
+.nombre-sitio span{
+    color: #037bc0;
+}
+
+.hero{
+  background-image: url("../img/principal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55rem;
+
+}
+
+/* Box model */
+
+/* .sobre-nosotros{
+    background-color: red;
+    width: 200px;
+    padding: 25px;
+    box-sizing: border-box;
+} */
+
+/* Display inline y block */
+
+/* Ni widht ni height se podría colocar si es inline */
+
+/* inline-block se colocan a la derecha pero se le puede agregar widht y height */
+
+/* Categorías */
+
+.categorias h2{
+  text-align: center;
+}
+
+.categorias a{
+  display: block;
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+.categorias a:hover{
+  background-color: #037bc0;
+  color: #ffffff;
+  border-bottom-right-radius: 1rem;
+}
+
+.listado-categorias{
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+ gap: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
